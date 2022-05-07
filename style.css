@@ -1,100 +1,100 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
 #container {
-    background-color: hsl(217, 54%, 11%);
-    min-height: 100vh;
-    color: hsl(215, 31%, 40%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  min-height: 100vh;
+  color: hsl(215, 31%, 40%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #card_container {
-    /* min-width: 30vh; */
-    background: hsl(216, 50%, 16%);
-    padding: 2vh;
-    border-radius: 1rem;
+  /* min-width: 30vh; */
+  background: hsl(216, 50%, 16%);
+  padding: 2vh;
+  border-radius: 1rem;
 }
 
 #text_align {
-    max-width: 25vh;
-    /* min-width: none; */
+  max-width: 25vh;
+  /* min-width: none; */
 }
 
 img {
-    max-width: 25vh;
-    border-radius: 1rem;
+  max-width: 25vh;
+  border-radius: 1rem;
 }
 
 #mask_1:hover {
-    /* -webkit-mask-image: url(./images/icon-view.svg);
+  /* -webkit-mask-image: url(./images/icon-view.svg);
     mask-image: url(./images/icon-view.svg);
     -webkit-mask-repeat: no-repeat;
     mask-repeat: no-repeat; */
 }
 
 #details {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
-    border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid white;
 }
 
 h2 {
-    padding: 1rem 0;
+  padding: 1rem 0;
 }
 
 h2 a {
-    font-size: 1.2rem;
-    color: white;
-    text-decoration: inherit;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: inherit;
 }
 
 h2 a:hover {
-    color: hsl(178, 100%, 50%);
+  color: hsl(178, 100%, 50%);
 }
 
 p {
-    font-size: 1rem;
-    padding: 0.5rem 0;
+  font-size: 1rem;
+  padding: 0.5rem 0;
 }
 
 #eth {
-    color: hsl(178, 100%, 50%);
-    font-weight: 500;
+  color: hsl(178, 100%, 50%);
+  font-weight: 500;
 }
 
 #eth img {
-    max-height: 1rem;
+  max-height: 1rem;
 }
 
 #clock {
-    position: relative;
-    top: 2px;
+  position: relative;
+  top: 2px;
 }
 
 #creator {
-    padding: 0.5rem 0;
+  padding: 0.5rem 0;
 }
 
 #creator img {
-    max-height: 2rem;
-    border: 1px solid white;
-    position: relative;
-    top: 0.5rem;
-    margin-right: 1rem;
+  max-height: 2rem;
+  border: 1px solid white;
+  position: relative;
+  top: 0.5rem;
+  margin-right: 1rem;
 }
 
 #maker a {
-    color: white;
-    text-decoration: inherit;
+  color: white;
+  text-decoration: inherit;
 }
 
-#maker :hover{
-    color: hsl(178, 100%, 50%);
+#maker :hover {
+  color: hsl(178, 100%, 50%);
 }
