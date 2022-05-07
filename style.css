@@ -19,6 +19,9 @@
   background: hsl(216, 50%, 16%);
   padding: 2vh;
   border-radius: 1rem;
+
+  box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.3),
+    0 0 100px 25px rgba(0, 0, 0, 0.2);
 }
 
 #text_align {
@@ -31,12 +34,12 @@ img {
   border-radius: 1rem;
 }
 
-#mask_1:hover {
-  /* -webkit-mask-image: url(./images/icon-view.svg);
-    mask-image: url(./images/icon-view.svg);
-    -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat; */
-}
+/* #mask_1:hover {
+  -webkit-mask-image: url(./images/icon-view.svg);
+  mask-image: url(./images/icon-view.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+} */
 
 #details {
   display: flex;
