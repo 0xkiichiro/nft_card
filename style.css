@@ -31,12 +31,12 @@ img {
     border-radius: 1rem;
 }
 
-/* #mask_1:hover {
-    -webkit-mask-image: url(./images/icon-view.svg);
+#mask_1:hover {
+    /* -webkit-mask-image: url(./images/icon-view.svg);
     mask-image: url(./images/icon-view.svg);
     -webkit-mask-repeat: no-repeat;
-    mask-repeat: no-repeat;
-} */
+    mask-repeat: no-repeat; */
+}
 
 #details {
     display: flex;
